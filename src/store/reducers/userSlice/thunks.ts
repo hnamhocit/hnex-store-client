@@ -1,8 +1,8 @@
 import { ActionReducerMapBuilder, createAsyncThunk } from '@reduxjs/toolkit'
 
 import api from '@/config/axios'
-import { IResponse } from '@/interfaces/response'
-import { IUser } from '@/interfaces/user'
+import { IResponse } from '@/types/response'
+import { IUser } from '@/types/user'
 import { UserInitial } from '.'
 
 export const fetchUser = createAsyncThunk('user/fetchUser', async () => {

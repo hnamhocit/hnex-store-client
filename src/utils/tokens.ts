@@ -1,4 +1,4 @@
-import { IJwtToken } from '@/interfaces/jwtToken'
+import { IJwtToken } from '@/types/auth/jwtToken'
 
 export const setTokens = (tokens: IJwtToken) => {
 	localStorage.setItem('accessToken', tokens.accessToken)

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { IUser } from '@/interfaces/user'
+import { IUser } from '@/types/user'
 import { RootState } from '../..'
 import { userExtraReducers } from './thunks'
 
